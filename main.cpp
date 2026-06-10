@@ -48,7 +48,7 @@ int main() {
         arr[i] = new char[n];
     }
 
-    cout << "Enter " << m << " strings (max " << n - 1 << " characters each):";
+    cout << "Enter " << m << " strings (max " << n - 1 << " characters each):"<<endl;
     for (int i = 0; i < m; i++) {
         cout << "String [" << i + 1 << "]: ";
         cin >> arr[i];
@@ -57,12 +57,12 @@ int main() {
     int choice;
     do {
        
-        cout << " Choose an operation to perform on the matrix:";
-        cout << "1. Count vowels per individual string";
-        cout << "2. Count total vowels in the entire matrix";
-        cout << "3. Find the longest string in the matrix";
-        cout << "4. Exit & Clean Memory";
-        cout << "Enter your choice (1-4): ";
+        cout << " Choose an operation to perform on the matrix:"<<endl;
+        cout << "1. Count vowels per individual string"<<endl;
+        cout << "2. Count total vowels in the entire matrix"<<endl;
+        cout << "3. Find the longest string in the matrix"<<endl;
+        cout << "4. Exit & Clean Memory"<<endl;
+        cout << "Enter your choice (1-4): "<<endl;
         cin >> choice;
     
 
