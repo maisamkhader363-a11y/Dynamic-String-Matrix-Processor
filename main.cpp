@@ -38,9 +38,9 @@ char* findLongestString(char** arr, int rows) {
 int main() {
     int m, n;
   
-    cout << "Enter the number of strings (rows): ";
+    cout << "Enter the number of strings (rows): "<<endl;
     cin >> m;
-    cout << "Enter the maximum length of each string (columns including null): ";
+    cout << "Enter the maximum length of each string (columns including null): "<<endl;
     cin >> n;
 
     char** arr = new char* [m];
